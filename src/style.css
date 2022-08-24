@@ -6,10 +6,16 @@ body {
   font-family: $font;
 }
 
+.app {
+  /* box-shadow: 0 0 5px rgb(222, 224, 224); */
+}
+
 .main {
   padding: 10px;
   border: 1px solid rgb(229, 226, 226);
   text-shadow: 2px 2px 4px #038b90;
+
+  /* box-shadow: 0 0 5px rgb(222, 224, 224); */
 }
 
 h1 {
@@ -65,7 +71,6 @@ h1 {
 }
 
 #input-todo {
-  /* width: auto; */
   height: 30px;
   padding-left: 15px;
   font-style: italic;
@@ -121,9 +126,5 @@ h1 {
 }
 
 .footer {
-  font-size: 8px;
-}
-
-.enter-button {
-  text-decoration: none;
+  font-size: 12px;
 }
