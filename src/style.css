@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css?family=Karla:weight@400;700&display=swap");
+
+$font: "Karla", sans-serif;
+
+body {
+  font-family: $font;
+  /* background-color: black; */
+}
+
+.app {
+  /* box-shadow: 0 0 5px rgb(222, 224, 224); */
+}
+
+.main {
+  padding: 10px;
+  border: 1px solid rgb(229, 226, 226);
+  text-shadow: 2px 2px 4px #038b90;
+
+  /* box-shadow: 0 0 5px rgb(222, 224, 224); */
+}
+
+h1 {
+  text-align: center;
+  font-size: 15px;
+}
+
+.todo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.refresh {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  transition: transform 0.5s;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  float: right;
+}
+
+.refreshed {
+  transform: rotate(360deg);
+}
+
+.list-item {
+  display: flex;
+  padding: 10px;
+  border: 1px solid rgb(229, 226, 226);
+
+  /* box-shadow: 1px 1px 5px rgb(170, 174, 174); */
+  justify-content: space-between;
+}
+
+.yellwo {
+  background-color: rgb(236, 236, 111);
+}
+
+.kebabIcon {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.check-box {
+  float: left;
+}
+
+#input-todo {
+  /* width: auto; */
+  height: 30px;
+  padding-left: 15px;
+  font-style: italic;
+  border: none;
+}
+
+#input-todo:focus {
+  outline: none;
+}
+
+#input-form {
+  display: flex;
+  justify-content: space-between;
+}
+
+#enter {
+  background-color: white;
+  border: none;
+  margin: 0;
+  padding: 10px;
+}
+
+.clear-all {
+  background-color: rgb(236, 234, 234);
+  padding: 10px;
+  text-align: center;
+}
+
+.clear-all h5 {
+  margin: 0;
+  text-align: center;
+  display: inline;
+  text-decoration: none;
+
+  /* color: rgb(115, 113, 113); */
+  cursor: pointer;
+}
+
+.clear-all > h5:hover {
+  text-decoration-line: underline;
+}
+
+.bin {
+  display: none;
+}
+
+.d-none {
+  display: none;
+}
+
+.d-block {
+  display: block;
+}
+
+.footer {
+  font-size: 8px;
+}
+
+.enter-button {
+  text-decoration: none;
+}
